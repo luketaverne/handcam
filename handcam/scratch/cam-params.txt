@@ -1,0 +1,17 @@
+# For the camera attached to Luke's Myo
+vid 2bc5, pid 0407
+Mirrored : no
+[IR Camera Intrinsic]
+578.938 578.938 318.496 251.533
+[RGB Camera Intrinsic]
+517.138 517.138 319.184 229.077
+[Rotate Matrix]
+ 1.000 -0.003 0.002
+ 0.003 1.000 0.005
+ -0.002 -0.005 1.000
+ [Translate Matrix]
+ -25.097 0.288 -1.118
+ [IR Camera Distorted Params ]
+ -0.094342 0.290512 -0.299526 -0.000318 -0.000279
+ [RGB Camera Distorted Params]
+ 0.044356 -0.174023 0.077324 0.001794 -0.003853

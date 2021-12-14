@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "handcam"
+version = "0.1.0"
+description = "Python code for the handcam dataset. <https://ieeexplore.ieee.org/abstract/document/8794175/>"
+authors = ["Luke Taverne <luketaverne@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "^8.0.3"
+#tensorflow-plot = "^0.3.2"
+#sklearn = "^0.0"
+
+#[tool.poetry.dev-dependencies]
+#tensorflow-gpu = "^2.6.0"
+#black = "^21.9b0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+handcam = "handcam.entrypoint:cli"

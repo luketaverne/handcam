@@ -1,0 +1,1 @@
+ffmpeg -r 30 -s 320x240 -i %d.png -vcodec libx264 -crf 30  -pix_fmt bgr8 test.mp4

@@ -1,0 +1,8 @@
+armReadyTime_ms:23580
+objectTouched_ms:23788
+lighting:false
+clutter:false
+greenScreen:false
+handedness:Right
+cameraid:1
+subjectid:001
